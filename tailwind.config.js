@@ -16,12 +16,18 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'terminal': '#4AF626',
-      'hterminal': '#3CC21F'
+      'hterminal': '#33a61b',
+      'gray': '#101010',
+      'lightgray': '#202020'
     },
     extend: {
       fontFamily:{
         custom:[ "Source Code Pro", "sans-serif"],
+        custom2:[ "Orbitron", "sans-serif"],
       },
+      spacing: {
+        '128': '35rem',
+      }
     },
   },
   plugins: [],
