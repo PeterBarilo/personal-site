@@ -10,13 +10,13 @@ function Experience() {
         {
           name: 'Machine Learning and Java Instructor',
           company: 'iD Tech',
-          description: 'Led comprehensive training sessions in Python-based Machine Learning and advanced Java, cultivating a highly satisfied clientele who collectively spent over $75,000. Drove the enhancement of managerial skills and leadership prowess, alongside the continuous expansion of technical proficiencies.',
+          description: 'I led comprehensive instruction in Python-based Machine Learning and advanced Java for a clientele who collectively spent over $75,000. I further drove the enhancement of my managerial skills and leadership prowess, alongside the continuous expansion of technical proficiencies.',
           link: "https://www.linkedin.com/company/id-tech-camps/"
         },
         {
           name: 'Co-founder, Software Engineer',
           company: 'Developer Secure',
-          description: "I developed a business model that helps local comapnies with improving their online presence. We focused on Web Development, ad creation, and SEO management.",
+          description: "I developed a business model that helps local comapnies with improving their online presence. We focuse on Web Development, ad creation, and SEO management.",
           link: "https://www.linkedin.com/company/developer-secure/"
         },
       ];

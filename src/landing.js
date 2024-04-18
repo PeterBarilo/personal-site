@@ -29,7 +29,7 @@ function Landing() {
         <div className={`fixed top-40 left-1/2 mr-20 mt-16 transform -translate-y-1/2 -translate-x-1/2 text-terminal text-l ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
             <h2 className='mt-48'>Hello!</h2>
             <br></br>
-            <p>My name is Peter Barilo and I am a undergraduate studying computer science at the University of Wisconsin-Madison.</p>
+            <p>My name is Peter Barilo and I am an undergraduate studying computer science at the University of Wisconsin-Madison.</p>
             <p> &gt; grad. 2025</p>
             <br></br>
             <p>I am currently looking for a position as a <b>Software/Web Developer</b>, <b>Machine Learning Engineer</b>, or <b>Cybersecurity Analyst</b>.</p>
