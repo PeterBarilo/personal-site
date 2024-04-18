@@ -1,20 +1,10 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-import PropTypes from 'prop-types';
 
 const ProjectCard = (props) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [isLanguageHovered, setIsLanguageHovered] = useState(false);
 
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
 
   const handleLanguageMouseEnter = () => {
     setIsLanguageHovered(true);
@@ -27,8 +17,6 @@ const ProjectCard = (props) => {
   return (
     <div
     className="font-custom p-4 m-4 border-2 border-hterminal hover:border-terminal bg-black hover:bg-gray rounded-lg mx-auto"
-    onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
       <h2 className="text-lg font-bold text-terminal mb-2">&gt; {props.name}</h2>
       <div className="mb-2">

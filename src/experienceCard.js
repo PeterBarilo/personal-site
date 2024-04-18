@@ -1,36 +1,13 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
 
-import PropTypes from 'prop-types';
 import linkedinLogoDefault from './images/linkedDefault.png';
 import linkedinLogoHover from './images/linkedAlt.png';
 
 const ExperienceCard = (props) => {
-  const [isHovered, setIsHovered] = useState(false);
-  const [isLanguageHovered, setIsLanguageHovered] = useState(false);
-
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const handleLanguageMouseEnter = () => {
-    setIsLanguageHovered(true);
-  };
-
-  const handleLanguageMouseLeave = () => {
-    setIsLanguageHovered(false);
-  };
 
   return (
     <div
     className="font-custom p-4 m-4 border-2 border-hterminal hover:border-terminal bg-black hover:bg-gray rounded-lg mx-auto"
-    onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
       <h2 className="text-lg font-bold text-terminal mb-2">&gt; {props.name}</h2>
       <p className="text-md mb-2 text-hterminal">{props.company}</p>
