@@ -29,6 +29,11 @@ const Projects = () => {
         language: ['React', 'JavaScript'],
         description: "Created a website using React and Python to sell custom-made computers. Developed a successful business plan and sold 7 computers for totaling 10k of revenue within 2 months of running the site."
       },  
+      {
+        name: 'Developer Secure',
+        language: ['React', 'JavaScript'],
+        description: "Developer Secure is a dynamic and innovative software development company specializing in impoving client's web presence through sleek and modern web design as well as expert SEO services"
+      },  
   ];
 
 
