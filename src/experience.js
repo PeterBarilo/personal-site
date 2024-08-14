@@ -32,14 +32,14 @@ function Experience() {
 
     return(
         <div className="font-custom text-terminal">
-            <div className=' fixed top-16 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-.75 rounded-lg text-2xl'>
+            <div className=' text-center mt-5 text-terminal rounded-lg  text-2xl'>
                 <Typewriter
                 onInit={(typewriter) => {
                     typewriter.pasteString("> ").typeString("My Experience").pauseFor(500).start().typeString(": ").pauseFor(600).typeString(" ")
                 }}
             />
             </div>
-            <div className={`fixed top-96 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-1/2 max-h-128 overflow-y-auto ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
+            <div className={`flex flex-col mx-[20vw] mt-[3vw] mb-[-9vw] ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
         {experience.map((project, index) => (
           <ExperienceCard
             key={index}

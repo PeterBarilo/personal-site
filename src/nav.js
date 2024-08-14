@@ -12,22 +12,22 @@ function Navigation() {
 
   return (
     <div> 
-      <nav className={`font-custom fixed bottom-16 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-.75 text-terminal rounded-lg shadow-lg ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
-        <div className='flex justify-center'>
-          <ul className="text-l flex justify-center space-x-40 ">
-            <li className='hover:text-hterminal transition-colors duration-500 relative'>
+      <nav className={`font-custom text-terminal rounded-lg shadow-lg ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
+        <div className=''>
+          <ul className="mb-[3vw] text-l flex text-center ml-0 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center mt-20 xl:mt-60 lg:mt-56 md:mt-56 sm:mt-56">
+            <li className='lg:mx-20 md:mx-10 sm:mx-5 mb-2 hover:text-hterminal transition-colors duration-500 relative'>
               <a href="/">About</a>
               <span className="line"></span>
             </li>
-            <li className='hover:text-hterminal transition-colors duration-500 relative'>
+            <li className='lg:mx-20 md:mx-10 sm:mx-5 mb-2 hover:text-hterminal transition-colors duration-500 relative'>
               <a href="/projects">Projects</a>
               <span className="line"></span>
             </li>
-            <li className='hover:text-hterminal transition-colors duration-500 relative'>
+            <li className='lg:mx-20 md:mx-10 sm:mx-5 mb-2 hover:text-hterminal transition-colors duration-500 relative'>
               <a href="/experience">Experience</a>
               <span className="line"></span>
             </li>
-            <li className='hover:text-hterminal transition-colors duration-500 relative'>
+            <li className='lg:mx-20 md:mx-10 sm:mx-5 mb-2 hover:text-hterminal transition-colors duration-500 relative'>
               <a href="/qualifications">Qualifications</a>
               <span className="line"></span>
             </li>

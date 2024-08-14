@@ -4,6 +4,7 @@ import ProjectCard from './projectCard';
 import { useEffect, useState } from 'react';
 
 
+
 const Projects = () => {
   const projects = [
     {
@@ -31,7 +32,7 @@ const Projects = () => {
       },  
       {
         name: 'Developer Secure',
-        language: ['React', 'JavaScript'],
+        language: ['React', 'JavaScript', 'SEO'],
         description: "Developer Secure is a dynamic and innovative software development company specializing in impoving client's web presence through sleek and modern web design as well as expert SEO services"
       },  
   ];
@@ -48,14 +49,14 @@ const Projects = () => {
 
   return (
     <div className={`font-custom text-terminal`}>
-      <div className='fixed top-16 left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-2xl'>
+      <div className='text-center mt-5 text-terminal rounded-lg  text-2xl'>
         <Typewriter
           onInit={(typewriter) => {
             typewriter.pasteString("> ").typeString("My Projects").pauseFor(500).start().typeString(": ").pauseFor(600).typeString(" ")
           }}
         />
       </div>
-      <div className={`mt-20 fixed top-80 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-1/2 max-h-128 overflow-y-auto ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
+      <div className={`flex flex-col mx-[20vw] mt-[3vw] mb-[-9vw] ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

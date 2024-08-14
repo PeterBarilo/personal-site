@@ -9,7 +9,6 @@ import Landing from './landing';
 function App() {
   return (
     <>
-      <Navigation />
       <div>
         <Routes>
           <Route path="/" element={<Landing />} />
@@ -18,6 +17,7 @@ function App() {
           <Route path="/qualifications" element={<Qualifications />} />
         </Routes>
       </div>
+      <Navigation />
     </>
   );
 }
