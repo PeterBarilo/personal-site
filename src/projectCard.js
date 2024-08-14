@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import openNew from './images/open_in_new_24dp_FILL0_wght400_GRAD0_opsz24 (1).png'
-import openNewHover from './images/open_in_new_24dp_FILL0_wght400_GRAD0_opsz24.png'
-
 const ProjectCard = (props) => {
   const [isLanguageHovered, setIsLanguageHovered] = useState(false);
 
