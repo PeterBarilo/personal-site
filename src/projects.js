@@ -23,7 +23,7 @@ const Projects = () => {
       name: 'ColorSplash',
       language: ['React', 'Node JS', 'MongoDB', 'Express'],
       description: 'ColorSplash is a fully functional E-Commerce site. It utilizes Stripe for ayment processing and features a dedicated admin panel for efficient product management.',
-      codeLink: 'https://github.com/PeterBarilo/AirlinePriceModel',
+      codeLink: 'https://github.com/PeterBarilo/ecommerce-jewelry',
     },  
     {
         name: 'Airline Price Prediction',
