@@ -16,13 +16,19 @@ const Projects = () => {
     {
       name: 'Kidney-Wise',
       language: ['Python', 'Machine Learning'],
-      description: 'The Kidney Disease Classifier algorithm is a machine learning solution designed to analyze patient data and predict the presence of kidney disease. This algorithm demonstrates the application of machine learning techniques in healthcare for predictive diagnosis.',
+      description: 'The Kidney Disease Classifier algorithm is a machine learning solution designed to analyze patient data and detect the presence of kidney disease. This algorithm demonstrates machine learning techniques in healthcare for predictive diagnosis.',
       codeLink: 'https://github.com/PeterBarilo/Kidney-Wise',
     },
     {
+      name: 'ColorSplash',
+      language: ['React', 'Node JS', 'MongoDB', 'Express'],
+      description: 'ColorSplash is a fully functional E-Commerce site. It utilizes Stripe for ayment processing and features a dedicated admin panel for efficient product management.',
+      codeLink: 'https://github.com/PeterBarilo/AirlinePriceModel',
+    },  
+    {
         name: 'Airline Price Prediction',
         language: ['Python', 'Machine Learning'],
-        description: 'The Airline Price Prediction algorithm is a machine learning solution crafted to forecast airline ticket prices with precision and accuracy. This algorithm showcases the utilization of Mutual Information Regression (MIR) in predicting airfare trends.',
+        description: 'The Airline Price Prediction algorithm forecasts airline ticket prices using a regression model. This algorithm showcases the utilization of Mutual Information Regression (MIR) in predicting airfare trends.',
         codeLink: 'https://github.com/PeterBarilo/AirlinePriceModel',
       },  
       {
