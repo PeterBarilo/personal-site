@@ -32,7 +32,7 @@ function Experience() {
 
     return(
         <div className="font-custom text-terminal">
-            <div className=' text-center mt-5 text-terminal rounded-lg  text-2xl'>
+            <div className=' text-center mt-10 text-terminal rounded-lg  text-2xl'>
                 <Typewriter
                 onInit={(typewriter) => {
                     typewriter.pasteString("> ").typeString("My Experience").pauseFor(500).start().typeString(": ").pauseFor(600).typeString(" ")

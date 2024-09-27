@@ -15,7 +15,7 @@ function Qualifications() {
 
     return(
         <>
-        <div className='text-center mt-5 font-custom text-terminal rounded-lg text-2xl'>
+        <div className='text-center mt-10 font-custom text-terminal rounded-lg text-2xl'>
             <Typewriter
             onInit={(typewriter) => {
                 typewriter.pasteString("> ").typeString("My Qualifications").pauseFor(500).start().typeString(": ").pauseFor(600).typeString(" ")

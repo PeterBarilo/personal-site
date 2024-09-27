@@ -18,7 +18,8 @@ module.exports = {
       'terminal': '#4AF626',
       'hterminal': '#33a61b',
       'gray': '#101010',
-      'lightgray': '#202020'
+      'lightgray': '#202020',
+      'bgcolor':'#050505'
     },
     extend: {
       fontFamily:{

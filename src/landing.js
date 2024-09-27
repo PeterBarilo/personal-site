@@ -19,7 +19,7 @@ function Landing() {
 
   return (
     <div className={`font-custom  `}>
-        <div className='text-center mt-5 text-terminal rounded-lg  text-2xl'>
+        <div className='text-center mt-10 text-terminal rounded-lg  text-2xl'>
         <Typewriter
             onInit={(typewriter) => {
                 typewriter.pasteString("> ").typeString("Peter Barilo").pauseFor(500).start().typeString(": ").pauseFor(600).typeString("Software Developer")
