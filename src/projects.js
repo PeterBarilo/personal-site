@@ -2,8 +2,6 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import ProjectCard from './projectCard';
 import { useEffect, useState } from 'react';
-import kidneywiseImage from './images/kidneywise.png';
-
 
 const Projects = () => {
   const projects = [
