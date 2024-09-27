@@ -43,3 +43,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+::-moz-selection {
+  background: #33a61b;
+  color: white;
+}
+::-webkit-selection {
+  background: #33a61b;
+  color: white;
+}
+::selection {
+  background: #33a61b;
+  color: white;
+}
