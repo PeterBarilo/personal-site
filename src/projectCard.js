@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
 
   return (
     <div
-      className="font-custom p-4 m-2 border-2 border-hterminal hover:border-terminal bg-black hover:bg-gray rounded-lg mx-auto relative"
+      className="font-custom p-4 m-2 border-2 border-hterminal hover:border-terminal bg-black hover:bg-gray rounded-lg mx-auto relative "
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
@@ -48,7 +48,7 @@ const ProjectCard = (props) => {
       <p className="text-sm mb-4">{props.description}</p>
       <a
         href={props.codeLink}
-        className="text-hterminal hover:text-terminal transition duration-300 ease-in-out mr-4"
+        className="text-hterminal hover:text-terminal transition duration-300 ease-in-out mr-4 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -62,10 +62,10 @@ const ProjectCard = (props) => {
       {showPopup && props.disabled === false && (
         <div
           className="fixed bg-lightgray text-terminal px-2 py-1 rounded text-xs" 
-          style={{ top: `${mousePos.y + 15}px`, left: `${mousePos.x + 20}px`, zIndex: 1000 }} 
+          style={{ top: `${mousePos.y + 15}px`, left: `${mousePos.x + 20}px`, zIndex: 1000}} 
         >
           <div className='flex'>
-          <img className="w-5" src={mouse} alt="mouse icon"></img>
+          <img className="w-5 mr-2" src={mouse} alt="mouse icon"></img>
             <p className='mt-0.5'>Click for more</p>
           </div>
           
