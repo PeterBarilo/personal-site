@@ -5,7 +5,30 @@ import { useEffect, useState } from 'react';
 
 const Projects = () => {
   const projects = [
-
+    {
+      name: 'Debate Insights',
+      language: ['React', 'Python', 'Flask', 'AWS'],
+      skills: ['Web Development', 'UX Design', 'Cloud Architecture', 'AWS', 'Frontend Development', 'Backend Development', 'Data Scraping','Machine Learning', ],
+      introTitle: 'Debate Insights: A a machine learning-powered web application that provides sentiment analysis on hot debate topics gathered from online sources',
+      intro: 'Debate Insights is a web platform designed to scrape tweets, analyze sentiments, and deliver real-time insights on trending political and social topics. Built with React for the frontend and Python Flask for the backend, the platform integrates AWS services like S3, Lambda, and Comprehend for efficient data storage, computation, and sentiment analysis. The goal is to empower users with actionable sentiment insights on popular topics.',
+      approach: [
+        'Modern Frontend with React: The frontend of Debate Insights is designed for user-friendly interaction, enabling users to view hot topics and subtopics dynamically. The interface is responsive, and data visualization is handled with components like the SentimentBar to display overall sentiment proportions.',
+        'Backend and Scraping Logic: The Python Flask backend handles the scraping of tweets in real-time using Selenium and Twitter’s API. Once scraped, the data is uploaded to AWS S3 and passed to AWS Comprehend for sentiment analysis. This separation of concerns allows the backend to focus on handling multiple concurrent scrapes efficiently.',
+        'AWS-Powered Sentiment Analysis: Using AWS services like Lambda and Comprehend, the platform is capable of analyzing thousands of tweets in near real-time. S3 acts as the storage for both raw tweet data and processed sentiment results, while Comprehend is used to extract sentiment scores (positive, negative, neutral, mixed) for each tweet.',
+        'Visualization of Sentiment Data: Users can see an aggregated view of sentiment for each topic and subtopic through a dynamic visual representation. For instance, bar charts display how many tweets lean positive, negative, neutral, or mixed. This provides quick insights on the public’s overall mood toward key issues.'
+      ],      
+      challenges: [
+        'Efficient Data Scraping: Handling large amounts of Twitter data without violating Twitter’s rate limits or facing blocking was a challenge. The implementation of rotating proxies and a careful scraping strategy helped manage these limitations.',
+        'Real-Time Sentiment Analysis: Ensuring that the platform can process tweets and analyze sentiment in real-time required the integration of AWS Lambda and Comprehend, which required proper setup to minimize latency while processing large batches of tweets.',
+        'Scalability and Cost Efficiency: Given the volume of data and frequency of sentiment analysis, balancing AWS costs with performance was a major focus. The architecture was designed to be serverless and to take advantage of cost-efficient resources like AWS Lambda and S3.'
+      ],
+      outcome: 'Debate Insights is a powerful tool for real-time sentiment analysis. It combines robust scraping capabilities with AWS-powered sentiment analysis, allowing users to track how key issues and individuals are being discussed online. The platform is scalable, responsive, and offers valuable insights into public opinion.',
+      description: 'Debate Insights is a real-time platform for tracking public sentiment on political and social issues, leveraging AWS services to perform sentiment analysis on Twitter data.',
+      codeLink: 'https://github.com/PeterBarilo/PublicSentimentAnalysis',
+      img: '/debateinsights.png',
+      link: 'http://psa-frontend.s3-website.us-east-2.amazonaws.com/',
+      disabled: false
+    }, 
     {
       name: 'Kidney-Wise',
       language: ['Python', 'Machine Learning'],

@@ -15,6 +15,7 @@ function Qualifications() {
       return () => clearTimeout(timer);
     }, []);
 
+
     return(
         <>
         <div className='text-center mt-10 font-custom text-terminal rounded-lg text-2xl'>
@@ -53,9 +54,7 @@ function Qualifications() {
                 <p className='mb-2'>CS 540: Artificial Intelligence</p>
                 <p className='mb-2'>CS 407: Foundations of Mobile Systems</p>
                 <p className='mb-2'>CS 240: Discrete Mathematics</p>
-            </div>
-
-        
+            </div> 
         </div>
         </>
     )
