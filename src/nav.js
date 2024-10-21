@@ -14,7 +14,7 @@ function Navigation() {
     <div> 
       <nav className={`font-custom text-terminal rounded-lg shadow-lg ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
         <div className=''>
-          <ul className="mb-[3vw] text-l flex text-center ml-0 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center mt-10 xl:mt-24 lg:mt-24 md:mt-24 sm:mt-24">
+          <ul className="mb-[3vw] text-l flex text-center ml-0 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center mt-10 xl:mt-48 lg:mt-28 md:mt-28 sm:mt-28">
             <li className='lg:mx-20 md:mx-10 sm:mx-5 mb-2 hover:text-hterminal transition-colors duration-500 relative'>
               <a href="/">About</a>
               <span className="line"></span>
