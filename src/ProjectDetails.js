@@ -19,7 +19,7 @@ const ProjectDetails = () => {
       <p>{project.intro}</p>
       {project.img !== '' ? (
         <img
-        className='mt-10 mb-5 border-solid border-2 border-terminal rounded-lg shadow-[0_0px_50px_1px_#4AF626] hover:shadow-[0_0px_500px_200px_#050505] hover:border-bgcolor hover:scale-150 transition-transform duration-500 ease-in-out'
+        className='mt-10 mb-5 border-solid border-2 border-terminal rounded-lg shadow-[0_0px_15px_1px_#4AF626] hover:shadow-[0_0px_500px_200px_#050505] hover:border-bgcolor hover:scale-150 transition-transform duration-500 ease-in-out'
         src={project.img}
         alt={project.name}
         />

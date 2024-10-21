@@ -9,7 +9,7 @@ const Projects = () => {
       name: 'Debate Insights',
       language: ['React', 'Python', 'Flask', 'AWS'],
       skills: ['Web Development', 'UX Design', 'Cloud Architecture', 'AWS', 'Frontend Development', 'Backend Development', 'Data Scraping','Machine Learning', ],
-      introTitle: 'Debate Insights: A a machine learning-powered web application that provides sentiment analysis on hot debate topics gathered from online sources',
+      introTitle: 'Debate Insights: A machine learning-powered web application that provides sentiment analysis on hot debate topics gathered from online sources',
       intro: 'Debate Insights is a web platform designed to scrape tweets, analyze sentiments, and deliver real-time insights on trending political and social topics. Built with React for the frontend and Python Flask for the backend, the platform integrates AWS services like S3, Lambda, and Comprehend for efficient data storage, computation, and sentiment analysis. The goal is to empower users with actionable sentiment insights on popular topics.',
       approach: [
         'Modern Frontend with React: The frontend of Debate Insights is designed for user-friendly interaction, enabling users to view hot topics and subtopics dynamically. The interface is responsive, and data visualization is handled with components like the SentimentBar to display overall sentiment proportions.',
@@ -23,7 +23,7 @@ const Projects = () => {
         'Scalability and Cost Efficiency: Given the volume of data and frequency of sentiment analysis, balancing AWS costs with performance was a major focus. The architecture was designed to be serverless and to take advantage of cost-efficient resources like AWS Lambda and S3.'
       ],
       outcome: 'Debate Insights is a powerful tool for real-time sentiment analysis. It combines robust scraping capabilities with AWS-powered sentiment analysis, allowing users to track how key issues and individuals are being discussed online. The platform is scalable, responsive, and offers valuable insights into public opinion.',
-      description: 'Debate Insights is a real-time platform for tracking public sentiment on political and social issues, leveraging AWS services to perform sentiment analysis on Twitter data.',
+      description: 'A machine learning-powered web application that displays people\'s feelings towards a certain debated topic through sentiment anaysis with data gathered from social media',
       codeLink: 'https://github.com/PeterBarilo/PublicSentimentAnalysis',
       img: '/debateinsights.png',
       link: 'http://psa-frontend.s3-website.us-east-2.amazonaws.com/',
