@@ -34,9 +34,7 @@ function Landing() {
             <br></br>
             <p>I am best able to demonstrate my skills in the following roles: <b>Software/Web Developer</b>, <b>Cloud Solutions Architect</b>, or <b>Cybersecurity Analyst</b>.</p>
             <br></br>
-            <p>Experienced in full-stack development, machine learning, and cloud computing with AWS. Possesses certifications in CompTIA Security+ and AWS Solutions Architect. 
-              Proven leadership and teaching experience, having instructed advanced programming courses at iD Tech and led several groups. Developed multiple scalable web applications utilizing technologies such as 
-              React, Python, and AWS. Fluent in English, Russian, and German, and proficient in cybersecurity, networking, and encryption.</p>
+            <p>Experienced in full-stack development, machine learning, and cloud computing with AWS. Proven leadership and teaching experience, having instructed advanced programming courses at iD Tech and led several groups. Developed multiple scalable web applications utilizing technologies such as React, Python, and AWS. Fluent in English, Russian, and German, and proficient in cybersecurity, networking, and encryption.</p>
 
         
         </div>
