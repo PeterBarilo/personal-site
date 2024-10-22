@@ -26,7 +26,7 @@ const Projects = () => {
       description: 'A machine learning-powered web application that displays people\'s feelings towards a certain debated topic through sentiment anaysis with data gathered from social media',
       codeLink: 'https://github.com/PeterBarilo/PublicSentimentAnalysis',
       img: '/debateinsights.png',
-      link: 'http://psa-frontend.s3-website.us-east-2.amazonaws.com/',
+      link: 'https://d1617fu4h6pogp.cloudfront.net/',
       disabled: false
     }, 
     {
