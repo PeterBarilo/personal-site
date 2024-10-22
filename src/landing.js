@@ -41,7 +41,7 @@ function Landing() {
         
         </div>
 
-        <div className={`flex flex-auto mt-10 justify-center ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
+        <div className={`flex flex-auto mt-10 lg:mb-[-100px] sm:mb-[-0px] justify-center ${show ? 'opacity-100' : 'opacity-0'}`} style={{ transition: 'opacity 2s' }}>
           <a href="https://github.com/PeterBarilo" target="_blank" rel="noopener noreferrer" className="mr-4 relative">
               <img src={githubLogoHover} alt="GitHub" className="w-14 h-14" />
               <img src={githubLogoDefault} alt="GitHub" className="w-14 h-14 absolute top-0 left-0 opacity-0 transition-opacity duration-300 hover:opacity-100" />
