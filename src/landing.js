@@ -13,7 +13,7 @@ function Landing() {
     useEffect(() => {
         const timer = setTimeout(() => {
           setShow(true);
-        }, 2500); 
+        }, 1500); 
         return () => clearTimeout(timer);
       }, []);
 
