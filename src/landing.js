@@ -17,6 +17,8 @@ function Landing() {
         return () => clearTimeout(timer);
       }, []);
 
+
+      
   return (
     <div className={`font-custom  `}>
         <div className='text-center mt-10 text-terminal rounded-lg  text-2xl'>
