@@ -56,6 +56,7 @@ function Experience() {
             company={project.company}
             description={project.description}
             link={project.link}
+            date={project.date}
           />
         ))}
       </div>

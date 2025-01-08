@@ -9,7 +9,9 @@ const ExperienceCard = (props) => {
     <div
     className="font-custom p-4 m-4 border-2 border-hterminal hover:border-terminal bg-black hover:bg-gray rounded-lg mx-auto"
     >
-      <h2 className="text-lg font-bold text-terminal mb-2">&gt; {props.name}</h2>
+    <h2 className="text-lg font-bold text-terminal mb-2">
+      &gt; {props.name} <span className="text-sm text-hterminal"> | {props.date}</span>
+    </h2>
       <p className="text-md mb-2 text-hterminal">{props.company}</p>
       <p className="text-sm mb-4">{props.description}</p>
       <div className={`flex justify-left space-x-20`}>
