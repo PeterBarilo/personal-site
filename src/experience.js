@@ -7,6 +7,12 @@ import ExperienceCard from './experienceCard';
 function Experience() {
 
     const experience = [
+      {
+        name: 'Software Engineer',
+        company: 'AbbVie',
+        description: "•	Developed and deployed scalable solutions using Python, AWS, and Docker with contributions to key projects. I integrated Large Language Models into analytical workflows by fine-tuning pre-trained models and optimizing infrastructure. I implemented CI/CD pipelines using AWS CodePipeline and Docker",
+        link: "https://www.linkedin.com/company/abbvie/"
+      },
         {
           name: 'Machine Learning and Java Instructor',
           company: 'iD Tech',
