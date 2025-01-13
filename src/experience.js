@@ -14,13 +14,13 @@ function Experience() {
         description: "Developed and deployed scalable solutions using Python, AWS, and Docker with contributions to key projects. I integrated Large Language Models into analytical workflows by fine-tuning pre-trained models and optimizing infrastructure. I implemented CI/CD pipelines using AWS CodePipeline and Docker",
         link: "https://www.linkedin.com/company/abbvie/"
       },
-      {
-        name: 'Database Researcher',
-        company: 'University of Wisconsin-Madison',
-        date:  'Nov 2024 - Present',
-        description: "Developed and	Conducted research under Professor Xiangyao Yu on GPU-acceleration for the DuckDB database system, leveraging CUDA programming to optimize query processing and data management. I benchmarked the database to identify potential bottlenecks and performance issues, demonstrating significant speedup in high-concurrency workloads. I developed parallel algorithms for database operations such as sorting, joins, and aggregation, achieving up to 150% improvement in processing speed",
-        link: "https://www.linkedin.com/school/uwmadison/"
-      },
+      // {
+      //   name: 'Database Researcher',
+      //   company: 'University of Wisconsin-Madison',
+      //   date:  'Nov 2024 - Present',
+      //   description: "Developed and	Conducted research under Professor Xiangyao Yu on GPU-acceleration for the DuckDB database system, leveraging CUDA programming to optimize query processing and data management. I benchmarked the database to identify potential bottlenecks and performance issues, demonstrating significant speedup in high-concurrency workloads. I developed parallel algorithms for database operations such as sorting, joins, and aggregation, achieving up to 150% improvement in processing speed",
+      //   link: "https://www.linkedin.com/school/uwmadison/"
+      // },
         {
           name: 'Machine Learning and Java Instructor',
           company: 'iD Tech',
