@@ -17,9 +17,16 @@ function Experience() {
       {
         name: 'Database Researcher',
         company: 'University of Wisconsin-Madison',
-        date:  'Nov 2024 - Present',
+        date:  'Sep 2024 - Present',
         description: "Developed and	Conducted research under Professor Xiangyao Yu on GPU-acceleration for the DuckDB database system, leveraging CUDA programming to optimize query processing and data management. I benchmarked the database to identify potential bottlenecks and performance issues, demonstrating significant speedup in high-concurrency workloads. I developed parallel algorithms for database operations such as sorting, joins, and aggregation, achieving up to 150% improvement in processing speed",
         link: "https://www.linkedin.com/school/uwmadison/"
+      },
+      {
+        name: 'Co-founder, Software Engineer',
+        company: 'Developer Secure',
+        date:  'Sep 2023 - June 2024',
+        description: "I developed a business model that helps local comapnies with improving their online presence. We focuse on Web Development, ad creation, and SEO management.",
+        link: "https://www.linkedin.com/company/developer-secure/"
       },
         {
           name: 'Machine Learning and Java Instructor',
@@ -28,13 +35,7 @@ function Experience() {
           description: 'I led comprehensive instruction in Python-based Machine Learning and advanced Java for a clientele who collectively spent over $75,000. I further drove the enhancement of my managerial skills and leadership prowess, alongside the continuous expansion of technical proficiencies.',
           link: "https://www.linkedin.com/company/id-tech-camps/"
         },
-        {
-          name: 'Co-founder, Software Engineer',
-          company: 'Developer Secure',
-          date:  'Sep 2023 - June 2024',
-          description: "I developed a business model that helps local comapnies with improving their online presence. We focuse on Web Development, ad creation, and SEO management.",
-          link: "https://www.linkedin.com/company/developer-secure/"
-        },
+        
       ];
 
       const [show, setShow] = useState(false);
