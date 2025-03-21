@@ -50,7 +50,9 @@ function Qualifications() {
                 <p className='mb-2'>CS 577: Algorithms</p>
                 <p className='mb-2'>CS 537: Operating Systems</p>
                 <p className='mb-2'>CS 571: User Interfaces</p>
+                <p className='mb-2'>CS 544: Big Data Systems</p>
                 <p className='mb-2'>CS 564: Databases</p>
+                <p className='mb-2'>CS 506: Software Engineering</p>
                 <p className='mb-2'>CS 540: Artificial Intelligence</p>
                 <p className='mb-2'>CS 407: Foundations of Mobile Systems</p>
                 <p className='mb-2'>CS 240: Discrete Mathematics</p>

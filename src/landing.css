@@ -1,0 +1,85 @@
+.landing-container {
+    font-family: 'Source Code Pro', sans-serif; /* Use Source Code Pro */
+    color: #00ff00; /* Terminal green */
+    background-color: #000000; /* Black background */
+    padding: 20px;
+}
+
+/* Typewriter container */
+.typewriter-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #00ff00;
+    font-family: 'Source Code Pro', sans-serif; /* Apply font here */
+}
+
+/* Content container */
+.content-container {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: opacity 2s;
+    max-width: 800px;
+    font-family: 'Source Code Pro', sans-serif; /* Apply font here */
+}
+
+.content-container.hidden {
+    opacity: 0;
+}
+
+.content-container.visible {
+    opacity: 1;
+}
+
+/* Command and output styles */
+.command {
+    margin-bottom: 10px;
+    color: #00ff00; /* Terminal green */
+    font-weight: bold;
+}
+
+.output {
+    text-indent: 20px; /* Indent for terminal output */
+    margin-bottom: 20px;
+    color: #00ff00; /* Terminal green */
+}
+
+/* Social links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: opacity 2s;
+}
+
+.social-links.hidden {
+    opacity: 0;
+}
+
+.social-links.visible {
+    opacity: 1;
+}
+
+.social-icon {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.social-icon-hover {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.social-icon:hover + .social-icon-hover {
+    opacity: 1;
+}
